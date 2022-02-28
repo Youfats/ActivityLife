@@ -40,6 +40,8 @@
         </activity>
 
         <activity android:name=".SaveInstanceStateActivity"/>
+
+        <activity android:name=".FragmentLifeActivity"/>
     </application>
 
 </manifest>

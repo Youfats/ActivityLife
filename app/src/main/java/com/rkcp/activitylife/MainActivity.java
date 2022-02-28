@@ -90,4 +90,9 @@ public class MainActivity extends BaseActivity {
         startActivity(intent);
     }
 
+    public void jumpToFragmentLifeActivity(View view) {
+        Intent intent = new Intent(this,FragmentLifeActivity.class);
+        startActivity(intent);
+    }
+
 }
