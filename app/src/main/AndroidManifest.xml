@@ -15,7 +15,6 @@
            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -30,6 +29,17 @@
         <activity
             android:name=".SingleInstanceActivity"
             android:launchMode="singleInstance" />
+
+        <!-- 隐式意图打开-->
+        <activity android:name=".ImplicitIntentActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.rkcp.activitylife.implicit"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SaveInstanceStateActivity"/>
     </application>
 
 </manifest>

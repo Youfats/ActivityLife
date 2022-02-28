@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/workspace/android_space/ActivityLife/app/src/main/res/layout/activity_implicit_intent.xml" value="0.2677083333333333" />
         <entry key="..\:/workspace/android_space/ActivityLife/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/workspace/android_space/ActivityLife/app/src/main/res/layout/activity_save_instance_state.xml" value="0.2677083333333333" />
         <entry key="..\:/workspace/android_space/ActivityLife/app/src/main/res/layout/activity_single_instance.xml" value="0.2677083333333333" />
         <entry key="..\:/workspace/android_space/ActivityLife/app/src/main/res/layout/activity_single_top.xml" value="0.2677083333333333" />
         <entry key="..\:/workspace/android_space/ActivityLife/app/src/main/res/layout/activity_temp.xml" value="0.2677083333333333" />

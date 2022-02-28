@@ -78,4 +78,16 @@ public class MainActivity extends BaseActivity {
         Intent intent = new Intent(this,SingleInstanceActivity.class);
         startActivity(intent);
     }
+    public void jumpToImplicitIntentActivity(View view) {
+        Intent intent = new Intent();
+        intent.setAction("com.rkcp.activitylife.implicit");
+//        intent.addCategory(Intent.CATEGORY_DEFAULT);
+        startActivity(intent);
+    }
+
+    public void jumpToSaveInstanceStateActivity(View view) {
+        Intent intent = new Intent(this,SaveInstanceStateActivity.class);
+        startActivity(intent);
+    }
+
 }

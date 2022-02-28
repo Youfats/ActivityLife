@@ -28,4 +28,15 @@
         android:layout_height="60dp"
         android:onClick="jumpToSingleInstanceActivity"
         android:text="打开singleInstanceActivity" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:onClick="jumpToImplicitIntentActivity"
+        android:text="隐式意图打开Activity" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:onClick="jumpToSaveInstanceStateActivity"
+        android:text="打开测试saveInstanceState" />
 </LinearLayout>
